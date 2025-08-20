@@ -1,5 +1,28 @@
 body {
+  text-align: center;
   font-family: 'Courier New', Courier, monospace;
+}
+
+.title {
+  margin-bottom: 32px;
+}
+
+.panel {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.items-one, .items-two, .items-three, .items-four {
+  display: flex;
+  flex-basis: 200px;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+} 
+
+.text {
+  text-align: center;
 }
 
 img {
